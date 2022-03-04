@@ -1,6 +1,6 @@
 {
   "name": "get-script-tag",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get script tags and attributes from String",
   "keywords": [
     "script",
@@ -21,8 +21,5 @@
     "type": "git",
     "url": "git+https://github.com/codeeshop-oc/get-script-tag.git"
   },
-  "files": [
-    "index.js"
-  ],
   "homepage": "https://github.com/codeeshop-oc/get-script-tag"
 }
