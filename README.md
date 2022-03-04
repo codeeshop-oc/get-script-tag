@@ -1,6 +1,9 @@
-# get-script-tag
+# Get Script Tag
 
-Get script tags and attributes from String.
+> Get script tags and attributes from String.
+[![npm](https://img.shields.io/badge/npm-1.0.0-blue)](https://www.npmjs.com/package/get-script-tag)
+[![license](https://img.shields.io/badge/license-MIT-green)](https://github.com/codeeshop-oc/get-script-tag/blob/main/LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/codeeshop-oc/get-script-tag/issues?&q=is%3Aissue+is%3Aopen)
 
 ## Installation
 
