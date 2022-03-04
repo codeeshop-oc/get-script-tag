@@ -1,0 +1,25 @@
+{
+  "name": "get-script-tag",
+  "version": "0.0.1",  
+  "description": "Get script tags and attributes from String",
+  "keywords": [
+    "script",
+    "get-script-tag",
+    "tag",
+    "get-script",
+    "browser"
+  ],
+  "scripts": {
+    "test": "node test/index.js"    
+  },
+  "author": "Code-E-Shop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeeshop-oc/get-script-tag/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeeshop-oc/get-script-tag.git"
+  },
+  "homepage": "https://github.com/codeeshop-oc/get-script-tag"
+}
