@@ -1,9 +1,9 @@
 module.exports = {
-  getScriptTags: function(htmlString) {    
+  getScriptTags: function(htmlString) {
     let tags = getString(htmlString).match(/<script\b[^>]*>[\s\S]*?<\/script\b[^>]*>/g)
     return tags != null ? tags : []
   },
-  getScriptTag: function(htmlString, index = 0) {    
+  getScriptTag: function(htmlString, index = 0) {
     let tags = this.getScriptTags(getString(htmlString))
     return typeof tags[index] != 'undefined' ? tags[index] : ''
   },
@@ -14,14 +14,14 @@ module.exports = {
       if(attrCombination[i].indexOf('=') > 0) {
         let attr = attrCombination[i].split('=')
         opts[attr[0]] = attr[1]
-      }      
+      }
     }
     return opts
   }
 }
 
 function getString(val) {
-  if(typeof val !== 'string') {    
+  if(typeof val !== 'string') {
     throw new Error(`Found ${typeof val}: String Type required`)
     val = ''
   }
