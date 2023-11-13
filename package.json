@@ -1,6 +1,6 @@
 {
   "name": "get-script-tag",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Get script tags and attributes from String",
   "keywords": [
     "script",
@@ -8,6 +8,10 @@
     "tag",
     "get-script",
     "browser"
+  ],
+  "files": [
+    "index.js",
+    "lib/*"
   ],
   "scripts": {
     "test": "node test/index.js"

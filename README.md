@@ -1,17 +1,32 @@
 # Get Script Tag
 
 > Get script tags and attributes from String.
-[![npm](https://img.shields.io/badge/npm-1.0.0-blue)](https://www.npmjs.com/package/get-script-tag)
+
+[![Latest Stable Version](https://img.shields.io/npm/v/get-script-tag.svg)](https://www.npmjs.com/package/get-script-tag) [![Total Downloads](https://img.shields.io/npm/dt/get-script-tag.svg)](https://npm-stat.com/charts.html?package=get-script-tag)
 [![license](https://img.shields.io/badge/license-MIT-green)](https://github.com/codeeshop-oc/get-script-tag/blob/main/LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/codeeshop-oc/get-script-tag/issues?&q=is%3Aissue+is%3Aopen)
+![Downloads Monthly](https://img.shields.io/npm/dm/get-script-tag.svg)
 
 ## Installation
 
 via npm
 
+```bash
+npm install get-script-tag
 ```
-$ npm install get-script-tag
+
+via yarn
+
+```bash
+yarn add get-script-tag
 ```
+
+via pnpm
+
+```bash
+pnpm add get-script-tag
+```
+
 
 ## API
 `get-script-tag` get all the a `script` tags and its `attributes`.
